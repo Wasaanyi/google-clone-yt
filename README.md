@@ -1,7 +1,8 @@
 # Google Clone App
 
-![App Screenshots](screenshot2.png)
-![App Screenshots](screenshots.png)
+![](./screenshot2.png)
+
+![](./screenshot.png)
 
 A Google Clone app developed using Next.js and Tailwind CSS.
 
