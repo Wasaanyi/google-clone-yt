@@ -1,38 +1,72 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Google Clone App
+
+![App Screenshots](screenshot2.png)
+![App Screenshots](screenshots.png)
+
+A Google Clone app developed using Next.js and Tailwind CSS.
+
+## Table of Contents
+
+- [Demo](#demo)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Demo
+
+https://google-clone-jw.vercel.app/
+
+## Features
+
+- Google Search functionality
+- Display of search results
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- [Node.js](https://nodejs.org/) installed
+- [npm](https://www.npmjs.com/) (Node Package Manager) installed
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+1. Clone the repository:
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+   ```bash
+   git clone https://github.com/Wasaanyi/google-clone-yt.git
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+   cd google-clone-yt
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. Install dependencies
 
-## Learn More
+   ```
+   npm install
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. Run the development server
+   ```
+   npm run dev
+   ```
+   The app will be accessible at https://localhost:3000
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologies Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+#### - Next.js
 
-## Deploy on Vercel
+#### - TailwindCSS
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+#### - googleopenapi
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Helpful links
+
+- Get an API Key from
+  https://developer.google.com/custom-search/v1/using_rest
+
+- Get a CONTEXT_KEY from
+  https://cse.google.com/cse/create/new
